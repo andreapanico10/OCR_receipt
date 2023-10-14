@@ -14,9 +14,9 @@ SOURCE_FOLDER_ID = os.getenv("SOURCE_FOLDER_ID")
 DESTINATION_FOLDER_ID = os.getenv("DESTINATION_FOLDER_ID")
 
 # Path to your credentials JSON file
-GOOGLE_DRIVE_CREDENTIALS_JSON = os.getenv("GOOGLE_DRIVE_CREDENTIALS_JSON")
+GOOGLE_DRIVE_CREDENTIALS_JSON = os.path.join(os.getcwd(), os.getenv("GOOGLE_DRIVE_CREDENTIALS_JSON"))
 
-TEMP_JSON_FILE = os.getenv("TEMP_JSON_FILE")
+TEMP_JSON_FILE = os.path.join(os.getcwd(), os.getenv("TEMP_JSON_FILE"))
 
 # PushBullet
 pb = Pushbullet(os.getenv('PUSHBULLET_API_KEY'))

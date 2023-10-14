@@ -1,0 +1,10 @@
+Files to elaborate:
+{'id': '1rCB2yxzLyD4dKUSb04iO6ky6QAaljXdA', 'name': 'sisa.jpg'}
+JSON file created
+Source folder empty.
+Files to elaborate:
+{'id': '1rCB2yxzLyD4dKUSb04iO6ky6QAaljXdA', 'name': 'sisa.jpg'}
+No data received from API
+Files to elaborate:
+{'id': '1rCB2yxzLyD4dKUSb04iO6ky6QAaljXdA', 'name': 'sisa.jpg'}
+No data received from API

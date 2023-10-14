@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 API_URL = "http://ocr.asprise.com/api/v1/receipt"
-TEMP_JSON_FILE = os.getenv("TEMP_JSON_FILE")
+TEMP_JSON_FILE = os.path.join(os.getcwd(), os.getenv("TEMP_JSON_FILE"))
 LOCAL_RECEPIT_IMAGE_PATH = os.getenv("LOCAL_RECEPIT_IMAGE_PATH") 
 
 def call_asprise_API(image):
@@ -28,7 +28,7 @@ def call_asprise_API(image):
         with open(TEMP_JSON_FILE, "w") as f:
             json.dump(json.loads(res.text), f)
             print("JSON file created")
-        return "response1.json"
+        return TEMP_JSON_FILE
 
 if __name__ == "__main__":
     call_asprise_API(LOCAL_RECEPIT_IMAGE_PATH)

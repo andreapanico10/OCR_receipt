@@ -7,8 +7,8 @@ from dotenv import load_dotenv
 load_dotenv()
 import os 
 
-GOOGLE_SHEET_CREDENTIALS_FILE = os.getenv("GOOGLE_SHEET_CREDENTIALS_FILE")
-TEMP_JSON_FILE = os.getenv("TEMP_JSON_FILE")
+GOOGLE_SHEET_CREDENTIALS_FILE = os.path.join(os.getcwd(), os.getenv("GOOGLE_SHEET_CREDENTIALS_FILE"))
+TEMP_JSON_FILE = os.path.join(os.getcwd(), os.getenv("TEMP_JSON_FILE"))
 
 def get_supermarket_name(supermarket):
     if "conad" in supermarket.lower():
