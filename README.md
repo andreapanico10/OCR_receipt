@@ -15,6 +15,8 @@ Given a receipt photo, apply an OCR service of third parties (http://ocr.asprise
 ## Follow me on Linkedin
 
 <a href="https://www.linkedin.com/in/andrea-panico-252718201/">
+Andrea Panico on Linkedin
+</a>
 
 <ol>
   <li> pip install -r requirements.txt</li>
