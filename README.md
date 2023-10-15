@@ -14,10 +14,10 @@ Given a receipt photo, apply an OCR service of third parties (http://ocr.asprise
 
 ## External Sources: Stay updated on my projects and progress
 
-* <a href="https://www.linkedin.com/in/andrea-panico-252718201/">
+<a href="https://www.linkedin.com/in/andrea-panico-252718201/">
 Linkedin
 </a>
-* <a href="https://github.com/andreapanico10">
+<a href="https://github.com/andreapanico10">
 GitHub
 </a>
 
