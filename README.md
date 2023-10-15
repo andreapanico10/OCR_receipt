@@ -14,6 +14,8 @@ Given a receipt photo, apply an OCR service of third parties (http://ocr.asprise
 * Python: Move a file from a Google Drive folder to another
 * Python: Send push notification to mobile phone with PushBullet
 
+## Pipeline
+
 ## External Sources: Stay updated on my projects and progress
 
 <a href="https://www.linkedin.com/in/andrea-panico-252718201/">
@@ -38,4 +40,7 @@ LOCAL_RECEPIT_IMAGE_PATH = "<Optional (is the relative parth wrt project folder 
 SOURCE_FOLDER_ID = "<Google Drive Source Folder Id>"
 DESTINATION_FOLDER_ID = "<Google Drive Source Destination Id>" 
 
-7. Run the script: python OCR_receipt_extraction_script.py 
+7. Run the script: 
+```
+python OCR_receipt_extraction_script.py 
+```
