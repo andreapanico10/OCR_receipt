@@ -17,7 +17,8 @@ Given a receipt photo, apply an OCR service of third parties (http://ocr.asprise
 
 ## Automated Pipeline
 
-![alt text](https://github.com/andreapanico10/OCR_receipt/blob/main/pipeline_page-0001.jpg)
+<img src="https://github.com/andreapanico10/OCR_receipt/blob/main/sisa.jpg" widht="500px" >
+<img src="https://github.com/andreapanico10/OCR_receipt/blob/main/pipeline_page-0001.jpg" >
 
 1. Take a picture from your phone and upload it to a "SOURCE" Google Drive folder.
 2. The python script will be launched daily from an Automator app and will check if there are files in this SOURCE folder. 
