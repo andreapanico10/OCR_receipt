@@ -77,5 +77,5 @@ If you find an issue or would like to submit an improvement to this project, ple
 
 If you are feeling stimulated by this project and want to make me smile -> 
 <a href="https://www.buymeacoffee.com/andreapynico" target="_blank">
-  <img src="https://miro.medium.com/v2/resize:fit:1400/1*VJdus0nKuy1uNoByh5BN3w.png" width="150" height="30">
+  <img src="https://miro.medium.com/v2/resize:fit:1400/1*VJdus0nKuy1uNoByh5BN3w.png" width="135" height="30">
 </a>
