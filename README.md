@@ -13,8 +13,21 @@ Given a receipt photo, apply an OCR service of third parties (http://ocr.asprise
 * Python: Update a sheet in Google Sheet
 * Python: Move a file from a Google Drive folder to another
 * Python: Send push notification to mobile phone with PushBullet
+* MAC OS: How to schedule a script execution with Automator
 
 ## Pipeline
+
+1. Take a picture from your phone and upload it to a "SOURCE" Google Drive folder.
+2. The python script will be launched daily from an Automator app and will check if there are files in this SOURCE folder. 
+3. If there are any, it means that you are gone to the grocery and the products must be extracted from the receipt photo and saved in our sheet.
+4. Acquire the photo from Google Drive and call the OCR API service to extract the text from receipt.
+5. Get the response and save it in a JSON file
+6. Extract the information of interest (for me: shopping date, supermarket name, items list)
+7. Connect to the storage Google Sheet and get the first empty row in order to understand where start to write.  
+8. For any item, format the row to insert and add to the sheet.
+9. In Google Drive move the already examined file to another Backup folder "DESTINATION" 
+10. At the end of process, send a Push Notification to my phone through pushbullet to comunicate the operation. I find this solution faster and easier than a telegram bot
+ 
 
 ## External Sources: Stay updated on my projects and progress
 
