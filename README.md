@@ -30,16 +30,14 @@ Given a receipt photo, apply an OCR service of third parties (http://ocr.asprise
 9. In Google Drive move the already examined file to another Backup folder "DESTINATION" 
 10. At the end of process, send a Push Notification to my phone through pushbullet to comunicate the operation. I find this solution faster and easier than a telegram bot
 
-<table>
-  <tr>
-   <th>
+<div>
+  <div class="inline-block">
     <img src="https://github.com/andreapanico10/OCR_receipt/blob/main/sisa.jpg" width="100px" height="300px">
-    </th>
-    <th>
+  </div>
+  <div class="inline-block">
    <img src="https://github.com/andreapanico10/OCR_receipt/blob/main/sheet_receipts.jpg" width="500px">
-    </th>
-  </tr>
-</table>
+  </div>
+</div>
 
 
  
