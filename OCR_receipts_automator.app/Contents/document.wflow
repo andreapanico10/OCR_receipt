@@ -62,7 +62,7 @@
 					<string>
 cd /Users/andrea/Documents/PythonProjects/OCR_receipt;
 
-/Library/Frameworks/Python.framework/Versions/3.11/bin/python3 /Users/andrea/Documents/PythonProjects/OCR_receipt/OCR_receipt_extraction_script.py &gt;&gt; output.txt
+/Library/Frameworks/Python.framework/Versions/3.11/bin/python3 /Users/andrea/Documents/PythonProjects/OCR_receipt/OCR_receipt_extraction_script.py &amp;&gt; output.txt
 </string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
@@ -173,8 +173,6 @@ cd /Users/andrea/Documents/PythonProjects/OCR_receipt;
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
