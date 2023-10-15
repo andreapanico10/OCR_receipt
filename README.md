@@ -12,10 +12,13 @@ Given a receipt photo, apply an OCR service of third parties (http://ocr.asprise
 * Python: Update a sheet in Google Sheet
 * Python: Move a file from a Google Drive folder to another
 
-## Follow me on Linkedin
+## External Sources: Stay updated on my projects and progress
 
-<a href="https://www.linkedin.com/in/andrea-panico-252718201/">
-Andrea Panico on Linkedin
+* <a href="https://www.linkedin.com/in/andrea-panico-252718201/">
+Linkedin
+</a>
+* <a href="https://github.com/andreapanico10">
+GitHub
 </a>
 
 <ol>
