@@ -22,7 +22,7 @@ Given a receipt photo, apply an OCR service of third parties (http://ocr.asprise
 3. If there are any, it means that you are gone to the grocery and the products must be extracted from the receipt photo and saved in our sheet.
 4. Acquire the photo from Google Drive and call the OCR API service to extract the text from receipt.
 5. Get the response and save it in a JSON file
-6. Extract the information of interest (for me: shopping date, supermarket name, items list)
+6. Extract the information of interest (for me: shopping date, supermarket name, items list) and ad hoc correction for the use case
 7. Connect to the storage Google Sheet and get the first empty row in order to understand where start to write.  
 8. For any item, format the row to insert and add to the sheet.
 9. In Google Drive move the already examined file to another Backup folder "DESTINATION" 
@@ -67,6 +67,6 @@ python OCR_receipt_extraction_script.py
 
 This is an example project and if you are interested to expand the project, please clone it and contact me at the email address: andreapanico98@gmail.com
 
-## Find a Bug
+## Find a Bug?
 
 If you find an issue or would like to submit an improvement to this project, please submit an issue using the issues tab above.
