@@ -61,3 +61,12 @@ DESTINATION_FOLDER_ID = "<Google Drive Source Destination Id>"
 ```
 python OCR_receipt_extraction_script.py 
 ```
+
+
+## Collaboration 
+
+This is an example project and if you are interested to expand the project, please clone it and contact me at the email address: andreapanico98@gmail.com
+
+## Find a Bug
+
+If you find an issue or would like to submit an improvement to this project, please submit an issue using the issues tab above.
