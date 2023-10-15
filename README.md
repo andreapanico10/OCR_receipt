@@ -17,7 +17,6 @@ Given a receipt photo, apply an OCR service of third parties (http://ocr.asprise
 
 ## Automated Pipeline
 
-<img src="https://github.com/andreapanico10/OCR_receipt/blob/main/sisa.jpg" widht="500px" >
 <img src="https://github.com/andreapanico10/OCR_receipt/blob/main/pipeline_page-0001.jpg" >
 
 1. Take a picture from your phone and upload it to a "SOURCE" Google Drive folder.
@@ -31,6 +30,7 @@ Given a receipt photo, apply an OCR service of third parties (http://ocr.asprise
 9. In Google Drive move the already examined file to another Backup folder "DESTINATION" 
 10. At the end of process, send a Push Notification to my phone through pushbullet to comunicate the operation. I find this solution faster and easier than a telegram bot
 
+<img src="https://github.com/andreapanico10/OCR_receipt/blob/main/sisa.jpg" width="500px" >
 ![alt text](https://github.com/andreapanico10/OCR_receipt/blob/main/sheet_receipts.jpg)
  
 
