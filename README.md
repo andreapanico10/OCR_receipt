@@ -75,5 +75,4 @@ If you find an issue or would like to submit an improvement to this project, ple
 
 ## Like this project?
 
-If you are feeling stimulated by this project and want to make me smile, buy me a coffee!
-https://www.buymeacoffee.com/andreapynico
+If you are feeling stimulated by this project and want to make me smile, follow the buy me a coffee link - https://www.buymeacoffee.com/andreapynico
