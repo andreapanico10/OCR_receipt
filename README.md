@@ -15,7 +15,7 @@ Given a receipt photo, apply an OCR service of third parties (http://ocr.asprise
 * Python: Send push notification to mobile phone with PushBullet
 * MAC OS: How to schedule a script execution with Automator
 
-## Pipeline
+## Pipeline automated
 
 1. Take a picture from your phone and upload it to a "SOURCE" Google Drive folder.
 2. The python script will be launched daily from an Automator app and will check if there are files in this SOURCE folder. 
