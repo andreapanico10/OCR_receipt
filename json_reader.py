@@ -63,9 +63,10 @@ def update_sheet(valid_items, sheet, supermarket_name, shop_date, row_counter):
 def json_reader(json_file_path):
 
     data = open_json_file(json_file_path)
-    #Authorize the API
+    # Authorize the API
     client = g_drive_credentials(GOOGLE_SHEET_CREDENTIALS_FILE)
 
+    # 'Receipts' is the sheet that serves as storage
     sheet = client.open('Receipts').sheet1
     python_sheet = sheet.get_all_records()
 
