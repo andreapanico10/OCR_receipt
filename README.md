@@ -70,3 +70,8 @@ This is an example project and if you are interested to expand the project, plea
 ## Find a Bug?
 
 If you find an issue or would like to submit an improvement to this project, please submit an issue using the issues tab above.
+
+## Like this project?
+
+If you are feeling stimulated by this project and want to make me smile, buy me a coffee!
+https://www.buymeacoffee.com/andreapynico
