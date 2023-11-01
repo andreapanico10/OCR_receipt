@@ -68,6 +68,10 @@ else:
             ).execute()
 
             print(f'File "{file}" moved to the destination folder.')
-            push = pb.push_note("OCR scontrino effettuato",f'File "{file}" processed through OCR.')
+            
+            try:
+                push = pb.push_note("OCR scontrino effettuato",f'File "{file}" processed through OCR.')
+            except Exception as e:
+                print(f"{e}")
 
             os.remove(TEMP_JSON_FILE)
