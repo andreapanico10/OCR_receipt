@@ -2,6 +2,7 @@ from google.oauth2 import service_account
 from googleapiclient.discovery import build
 from OCR_receipt_call_API import call_asprise_API
 from json_reader import json_reader
+from datetime import datetime
 import io
 import os 
 import os
@@ -21,6 +22,14 @@ TEMP_JSON_FILE = os.path.join(os.getcwd(), os.getenv("TEMP_JSON_FILE"))
 # PushBullet
 pb = Pushbullet(os.getenv('PUSHBULLET_API_KEY'))
 
+py_print = print
+
+def print(*args, **kwargs):
+    timestamp = datetime.now().strftime("%d-%m-%Y %H:%M:%S")
+    message = ' '.join(map(str, args))
+    py_print(f"{timestamp} - {message}", **kwargs)
+
+
 # Create a service account credentials object
 credentials = service_account.Credentials.from_service_account_file(
     GOOGLE_DRIVE_CREDENTIALS_JSON, scopes=['https://www.googleapis.com/auth/drive']
@@ -38,7 +47,7 @@ results = drive_service.files().list(
 files = results.get('files', [])
 
 if not files:
-    print(f'Source folder empty.')
+    print('Source folder empty.')
 else:
     print("Files to elaborate:")
     for file in files:

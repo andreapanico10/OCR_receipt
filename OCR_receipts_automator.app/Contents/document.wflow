@@ -62,7 +62,7 @@
 					<string>
 cd /Users/andrea/Documents/PythonProjects/OCR_receipt;
 
-/usr/local/bin/python3 /Users/andrea/Documents/PythonProjects/OCR_receipt/OCR_receipt_extraction_script.py &amp;&gt; output.txt
+/usr/local/bin/python3 /Users/andrea/Documents/PythonProjects/OCR_receipt/OCR_receipt_extraction_script.py &amp;&gt;&gt; output.txt
 </string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
