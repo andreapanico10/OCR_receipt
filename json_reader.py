@@ -17,6 +17,8 @@ def get_supermarket_name(supermarket):
         return "Lidl"
     elif "supergest" in supermarket.lower():
         return "Sisa"
+    elif "dok" in supermarket.lower():
+        return "Dok"
     
 def open_json_file(json_file_path):
     with open(json_file_path, "r") as f:
